@@ -317,7 +317,7 @@ export const getToAccounts = createSelector(
       isExternal: false,
       displayName:
         getAccountGroupNameByInternalAccount(state, account) ??
-        account.metadata?.name || '',
+        account.metadata?.name??
         account.address,
     }));
   },
