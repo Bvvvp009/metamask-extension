@@ -230,9 +230,9 @@ export const Connections = () => {
         >
           {connectedSubjectsMetadata?.iconUrl ? (
             <AvatarFavicon
-             name={connectedSubjectsMetadata?.name || ''}
-             size={AvatarFaviconSize.Sm}
-             src={connectedSubjectsMetadata.iconUrl}
+              name={connectedSubjectsMetadata?.name || ''}
+              size={AvatarFaviconSize.Sm}
+              src={connectedSubjectsMetadata.iconUrl}
             />
           ) : (
             <Icon
